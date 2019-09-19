@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "201690967647",
+    "firebase_url": "https://ortaksi-af7c9.firebaseio.com",
+    "project_id": "ortaksi-af7c9",
+    "storage_bucket": "ortaksi-af7c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201690967647:android:2206308ad5b0d79f",
+        "android_client_info": {
+          "package_name": "com.cagataygul.ortaksison"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201690967647-324j7sa620mlf1anrem534ktjt7j6n4d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cagataygul.ortaksison",
+            "certificate_hash": "5b394d17d2865d511421610b8e459b00a53bc957"
+          }
+        },
+        {
+          "client_id": "201690967647-m6ec9njr1983iammk3p8ed2jsja89l78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXeU21umGnLNuCrhysHb9tKxYDEBwzO1E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201690967647-m6ec9njr1983iammk3p8ed2jsja89l78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

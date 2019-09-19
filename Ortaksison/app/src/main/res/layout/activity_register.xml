@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yenireg"
+    tools:context=".Register">
+    <EditText
+        android:id="@+id/nametext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="23dp"
+        android:ems="10"
+        android:hint="Name"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/surnametext"
+        app:layout_constraintEnd_toEndOf="@+id/surnametext"
+        app:layout_constraintStart_toStartOf="@+id/phonenumbertext"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/surnametext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:hint="Surname"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/emailtext"
+        app:layout_constraintEnd_toEndOf="@+id/emailtext"
+        app:layout_constraintStart_toStartOf="@+id/phonenumbertext"
+        app:layout_constraintTop_toBottomOf="@+id/nametext" />
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/phonenumbertext"
+        app:layout_constraintEnd_toEndOf="@+id/usernametext"
+        app:layout_constraintStart_toStartOf="@+id/usernametext"
+        app:layout_constraintTop_toBottomOf="@+id/surnametext" />
+
+    <EditText
+        android:id="@+id/phonenumbertext"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/usernametext"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailtext" />
+
+    <EditText
+        android:id="@+id/usernametext"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="Username"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/passwordtext"
+        app:layout_constraintStart_toStartOf="@+id/phonenumbertext"
+        app:layout_constraintTop_toBottomOf="@+id/phonenumbertext" />
+
+    <EditText
+        android:id="@+id/passwordtext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="Password"
+
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/registimage"
+        app:layout_constraintEnd_toEndOf="@+id/usernametext"
+        app:layout_constraintStart_toStartOf="@+id/phonenumbertext"
+        app:layout_constraintTop_toBottomOf="@+id/usernametext" />
+
+    <ImageView
+        android:id="@+id/registimage"
+        android:layout_width="217dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginBottom="128dp"
+        android:contentDescription="TODO"
+        android:onClick="register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="316dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="159dp"
+        android:layout_marginEnd="65dp"
+        android:entries="@array/Gender"
+        android:textColor="#ffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</android.support.constraint.ConstraintLayout>

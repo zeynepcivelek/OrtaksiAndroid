@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arayuzgiri"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/progrss"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="250dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="350dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="129dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="252dp"
+        app:srcCompat="@drawable/animated" />
+</RelativeLayout>
